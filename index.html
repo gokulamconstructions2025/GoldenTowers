@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gokulam Constructions - About Us</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    header {
+      background: #fff;
+      border-bottom: 2px solid #eee;
+      padding: 10px 40px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .logo-container img {
+      width: 70px;   /* Slightly larger logo */
+      height: auto;
+    }
+    .logo-text {
+      font-weight: bold;
+      font-size: 2.5rem; /* Increased size */
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .logo-text span.blue {
+      color: blue;
+    }
+    .logo-text span.orange {
+      color: orange;
+    }
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+    nav a:hover,
+    nav a.active {
+      color: orange;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        gap: 10px;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      nav a {
+        margin: 5px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- Logo + Name aligned to the left -->
+      <div class="logo-container">
+        <img src="logo.png" alt="Gokulam Constructions Logo">
+        <h1 class="logo-text">
+          <span class="blue">Gokulam</span> <span class="orange">Constructions</span>
+        </h1>
+      </div>
+
+      <!-- Navigation aligned to the right -->
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container" style="flex-direction: column; align-items: flex-start;">
+      <h2>About Us</h2>
+      <p>
+        <strong>Gokulam Constructions</strong> is a trusted leader in delivering quality building
+        and infrastructure solutions. Our mission is to create durable, modern,
+        and sustainable constructions while ensuring client satisfaction through
+        reliable services and expert consultancy.
+      </p>
+    </div>
+  </section>
+
+  <footer style="text-align:center; padding:15px; border-top:2px solid #eee;">
+    <p>&copy; 2025 Gokulam Constructions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
