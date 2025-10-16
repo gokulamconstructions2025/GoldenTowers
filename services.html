@@ -1,197 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gokulam Constructions - Services</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin:0;
-      padding:0;
-    }
-
-    /* ---------- Header ---------- */
-    header {
-      background: #fff;
-      border-bottom: 2px solid #eee;
-      padding: 10px 40px;
-      position: sticky;
-      top:0;
-      z-index: 1000;
-    }
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .logo-container {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-    .logo-container img { width: 70px; height: auto; }
-    .logo-text {
-      font-weight: bold;
-      font-size: 2.5rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-    .logo-text span.blue { color: #1e3a8a; }
-    .logo-text span.orange { color: #f97316; }
-    nav a {
-      margin-left: 25px;
-      text-decoration: none;
-      font-size: 1.1rem;
-      font-weight: 500;
-      color: #333;
-      transition: color 0.3s ease;
-    }
-    nav a:hover, nav a.active { color: #f97316; }
-
-    /* ---------- Services Section ---------- */
-    .services-section {
-      padding: 80px 20px;
-      background-color: #ffffff;
-      text-align: center;
-    }
-    .services-section h2 {
-      color: #1e3a8a;
-      font-size: 2.2rem;
-      margin-bottom: 20px;
-    }
-    .services-section p {
-      font-size: 1.1rem;
-      color: #666;
-      max-width: 900px;
-      margin: 0 auto 50px auto;
-    }
-    .services-cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-    }
-    .service-card {
-      background: #f9fafb;
-      border-radius: 15px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      padding: 30px;
-      width: 320px;
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-    .service-card:hover { transform: scale(1.05); }
-    .service-card div.icon {
-      font-size: 50px;
-      margin-bottom: 15px;
-    }
-    .service-card h3 {
-      font-size: 24px;
-      margin-bottom: 15px;
-    }
-    .service-card p {
-      font-size: 16px;
-      color: #555;
-      line-height: 1.6;
-    }
-    .service-card ul {
-      text-align: left;
-      margin-top: 15px;
-      color: #555;
-      line-height: 1.5;
-      padding-left: 20px;
-    }
-
-    /* ---------- Footer ---------- */
-    footer {
-      text-align: center;
-      padding: 15px;
-      border-top: 2px solid #eee;
-      background-color: #f9fafb;
-      color: #555;
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 768px) {
-      nav { display:flex; flex-wrap:wrap; justify-content:center; }
-      nav a { margin:5px 10px; }
-      .services-cards { flex-direction: column; align-items: center; }
-      .service-card { width: 90%; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gokulam Constructions - Services</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="logo-container">
-        <img src="logo.png" alt="Gokulam Constructions Logo">
-        <h1 class="logo-text">
-          <span class="blue">Gokulam</span> <span class="orange">Constructions</span>
-        </h1>
-      </div>
-
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html" class="active">Services</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<header>
+  <div class="container">
+    <div class="logo-container">
+      <img src="logo.png" alt="Gokulam Constructions Logo">
+      <h1 class="logo-text"><span class="blue">Gokulam</span> <span class="orange">Constructions</span></h1>
     </div>
-  </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Services Section -->
-  <section class="services-section">
-    <h2>Our Services</h2>
-    <p>
-      At Gokulam Constructions, we provide premium residential solutions tailored to your lifestyle. 
-      Explore our spacious apartments and beautifully designed individual homes crafted for comfort and elegance.
-    </p>
+<section>
+  <h2>Our Services</h2>
+  <p>Explore our spacious apartments and beautifully designed individual homes crafted for comfort and elegance.</p>
 
-    <div class="services-cards">
-
-      <!-- Apartments Card -->
-      <div class="service-card">
-        <div class="icon" style="color:#1e3a8a;">🏢</div>
-        <h3 style="color:#1e3a8a;">Spacious Apartments</h3>
-        <p>
-          Our thoughtfully designed 2BHK and 3BHK apartments combine modern style, comfort, and premium amenities. 
-          Each apartment offers ample space, natural light, and elegant interiors for a luxurious lifestyle.
-        </p>
-        <ul>
-          <li>Spacious 2BHK & 3BHK layouts</li>
-          <li>Modern kitchens & stylish interiors</li>
-          <li>Well-ventilated and naturally lit spaces</li>
-          <li>Prime locations with excellent connectivity</li>
-        </ul>
-      </div>
-
-      <!-- Individual Homes Card -->
-      <div class="service-card">
-        <div class="icon" style="color:#f97316;">🏠</div>
-        <h3 style="color:#f97316;">Beautiful Individual Homes</h3>
-        <p>
-          Our individual homes are spacious, elegant, and crafted to perfection. 
-          Each home offers privacy, comfort, and a peaceful environment — ideal for families seeking a luxurious yet homely experience.
-        </p>
-        <ul>
-          <li>Custom-designed layouts to match your lifestyle</li>
-          <li>Beautiful interiors and exterior spaces</li>
-          <li>Private gardens and parking facilities</li>
-          <li>High-quality construction with durable materials</li>
-        </ul>
-      </div>
-
+  <div class="services-cards">
+    <div class="service-card">
+      <div class="icon" style="color:#1e3a8a;">🏢</div>
+      <h3 style="color:#1e3a8a;">Spacious Apartments</h3>
+      <p>Modern 2BHK & 3BHK apartments with elegant interiors and premium amenities.</p>
+      <ul>
+        <li>Spacious layouts</li>
+        <li>Modern kitchens</li>
+        <li>Well-lit spaces</li>
+        <li>Prime locations</li>
+      </ul>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Gokulam Constructions. All Rights Reserved.</p>
-  </footer>
+    <div class="service-card">
+      <div class="icon" style="color:#f97316;">🏠</div>
+      <h3 style="color:#f97316;">Individual Homes</h3>
+      <p>Elegant homes with privacy, luxury, and comfort for families.</p>
+      <ul>
+        <li>Custom layouts</li>
+        <li>Beautiful interiors</li>
+        <li>Private gardens</li>
+        <li>Durable construction</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Gokulam Constructions. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
