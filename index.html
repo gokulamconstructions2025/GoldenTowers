@@ -1,233 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gokulam Constructions - Home</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    /* ---------- Header ---------- */
-    header {
-      background: #fff;
-      border-bottom: 2px solid #eee;
-      padding: 10px 40px;
-    }
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .logo-container {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-    .logo-container img {
-      width: 70px;
-      height: auto;
-    }
-    .logo-text {
-      font-weight: bold;
-      font-size: 2.5rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-    .logo-text span.blue {
-      color: #1e3a8a;
-    }
-    .logo-text span.orange {
-      color: #f97316;
-    }
-    nav a {
-      margin-left: 25px;
-      text-decoration: none;
-      font-size: 1.1rem;
-      font-weight: 500;
-      color: #333;
-      transition: color 0.3s ease;
-    }
-    nav a:hover,
-    nav a.active {
-      color: #f97316;
-    }
-
-    /* ---------- About Section ---------- */
-    .about-section {
-      padding: 60px 20px;
-      background-color: #f9fafb;
-      text-align: center;
-    }
-    .about-section h2 {
-      color: #1e3a8a;
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-    .about-section p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: #333;
-      max-width: 900px;
-      margin: 0 auto;
-      text-align: justify;
-    }
-
-    /* ---------- Golden Towers Section ---------- */
-    .project-highlight {
-      text-align: center;
-      padding: 70px 20px;
-      background-color: #ffffff;
-    }
-    .project-highlight h2 {
-      color: #1e3a8a;
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-    .project-highlight h3 {
-      color: #f97316;
-      font-size: 1.5rem;
-      margin-bottom: 25px;
-    }
-    .project-gallery {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-bottom: 25px;
-    }
-    .project-gallery img {
-      width: 45%;
-      max-width: 500px;
-      border-radius: 15px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .project-gallery img:hover {
-      transform: scale(1.05);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-    }
-    .project-highlight p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: #333;
-      max-width: 850px;
-      margin: 0 auto;
-      text-align: justify;
-    }
-
-    /* ---------- Footer ---------- */
-    footer {
-      text-align: center;
-      padding: 15px;
-      border-top: 2px solid #eee;
-      background-color: #f9fafb;
-      color: #555;
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        gap: 10px;
-      }
-      nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      nav a {
-        margin: 5px 10px;
-      }
-      .project-gallery img {
-        width: 90%;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gokulam Constructions - Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="logo-container">
-        <img src="logo.png" alt="Gokulam Constructions Logo">
-        <h1 class="logo-text">
-          <span class="blue">Gokulam</span> <span class="orange">Constructions</span>
-        </h1>
-      </div>
-
-      <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<header>
+  <div class="container">
+    <div class="logo-container">
+      <img src="logo.png" alt="Gokulam Constructions Logo">
+      <h1 class="logo-text"><span class="blue">Gokulam</span> <span class="orange">Constructions</span></h1>
     </div>
-  </header>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- About Gokulam Constructions -->
-  <section class="about-section">
-    <h2>About Gokulam Constructions</h2>
-    <p>
-      <strong>Gokulam Constructions</strong> is a reputed construction company based in 
-      Chilakaluripeta, Andhra Pradesh. With a passion for quality and a commitment to excellence, 
-      we specialize in building individual houses, spacious 2BHK and 3BHK apartments, and 
-      premium residential projects. Each project reflects our promise of trust, transparency, 
-      and lasting value. Our mission is to create beautiful, durable homes that provide 
-      comfort, security, and happiness for every family.
-    </p>
-  </section>
+<!-- About Section -->
+<section>
+  <h2>About Gokulam Constructions</h2>
+  <p>
+    <strong>Gokulam Constructions</strong> is a reputed construction company established in 2025, based in Chilakaluripeta, Andhra Pradesh. 
+    Over the years, we have delivered premium residential projects, combining modern architecture with quality construction.
+  </p>
+  <p>
+    We specialize in building spacious 2BHK and 3BHK apartments as well as individual luxury homes. 
+    Our projects are designed to offer comfort, elegance, and functionality, ensuring a perfect living experience for families.
+  </p>
+  <p>
+    Today, <strong>Gokulam Constructions</strong> operates across multiple regions in Andhra Pradesh including Guntur, Vijayawada, and Tirupati, 
+    bringing excellence and reliability to every project we undertake.
+  </p>
+</section>
 
-
-
-
-    <!-- Individual Homes -->
-    <div style="background:#f9fafb; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.1); padding:30px; width:320px; text-align:center;">
-      <div style="font-size:50px; color:#f97316;">🏠</div>
-      <h3 style="font-size:24px; margin:15px 0; color:#f97316;">Beautiful Individual Homes</h3>
-      <p style="color:#555; font-size:16px; line-height:1.6;">
-        Our individual homes are spacious, elegant, and crafted to perfection. 
-        Each home offers privacy, luxury, and a peaceful environment — ideal for families who want comfort and style in every corner.
-      </p>
-      <ul style="text-align:left; color:#555; margin-top:15px;">
+<!-- Individual Homes Section -->
+<section>
+  <h2>Beautiful Individual Homes</h2>
+  <div class="services-cards">
+    <div class="service-card">
+      <div class="icon" style="color:#f97316;">🏠</div>
+      <h3 style="color:#f97316;">Individual Homes</h3>
+      <p>Spacious, elegant homes with privacy, comfort, and luxury.</p>
+      <ul>
         <li>Custom-designed layouts</li>
         <li>Beautiful interiors and exterior spaces</li>
         <li>Private gardens and parking</li>
-        <li>High-quality construction and durable materials</li>
+        <li>High-quality construction with durable materials</li>
       </ul>
     </div>
-
   </div>
 </section>
 
-  
-  <!-- Golden Towers Section -->
-  <section class="project-highlight">
-    <h2>Our Latest Project</h2>
-    <h3>The Golden Towers by Gokulam Constructions</h3>
+<!-- Golden Towers Project -->
+<section class="project-highlight">
+  <h2>Our Latest Project</h2>
+  <h3>The Golden Towers</h3>
+  <div class="project-gallery">
+    <img src="golden-towers-1.jpg" alt="Golden Towers View 1">
+    <img src="golden-towers-2.jpg" alt="Golden Towers View 2">
+  </div>
+  <p>
+    Premium 2BHK and 3BHK apartments designed for elegance, comfort, and modern living.
+    Each apartment includes world-class amenities, spacious layouts, and high-quality finishes.
+  </p>
+</section>
 
-    <div class="project-gallery">
-      <img src="golden-towers-1.jpg" alt="Golden Towers View 1">
-      <img src="golden-towers-2.jpg" alt="Golden Towers View 2">
-    </div>
-
-    <p>
-      <strong>The Golden Towers</strong> stands as a symbol of modern architecture and 
-      luxury living in Chilakaluripeta. Designed with attention to detail, 
-      these premium 2BHK and 3BHK apartments offer elegant interiors, ample space, 
-      and world-class amenities. Every corner is crafted to perfection, ensuring 
-      comfort and convenience for modern families. Experience refined living 
-      with <strong>Gokulam Constructions</strong> — where your dream home becomes reality.
-    </p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Gokulam Constructions. All Rights Reserved.</p>
-  </footer>
+<footer>
+  <p>&copy; 2025 Gokulam Constructions. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
-
-
-
-
